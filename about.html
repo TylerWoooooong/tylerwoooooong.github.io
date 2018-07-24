@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+     <meta name=viewport content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="final.css"/>
+    	<link rel="stylesheet" type="text/css" href="about-me.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+    
+<meta charset="UTF-8"/>
+    <title> About Me</title>
+  </head>
+  <body>
+
+<div id="wrapper">
+
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            About Me
+        </h1>
+        <nav>
+            <a href="http://final-project-twong174757156.codeanyapp.com/final.html" >Home</a>
+            <a href="http://final-project-twong174757156.codeanyapp.com/resume12.html">Résumé</a>
+            <a href="mailto:wongt22@students.spprep.org">Contact</a>
+        </nav>
+    </div>
+</header><!-- /header -->
+
+<div id="main">
+    <div id="content">
+        <section>
+            <div class="container">
+              <h1>Here is a Little About Me</h1>
+               <p>My name is Tyler Wong, an incoming freshman into Prep. I live in Jersey City and have a younger sister. I have many hobbies including basketball, video games, outdoor activies. I also enjoy programming. 
+    
+    </p>
+                  <p>Like many kids my age, I play <a class="hvr-sweep-to-right" href="https://www.epicgames.com/fortnite/buy-now">Fortnite.</a> However, I also enjoy MOBA games such as <a class="hvr-sweep-to-right" href="https://na.leagueoflegends.com/">League of Legends.</a> (I main Galio with a mastery of 6) </p>
+
+              <p>I also really enjoy playing and watching basketball. For my school, I play as point guard. My favorite team is the <a class="hvr-sweep-to-right" href="https://www.nba.com/warriors/">Golden State Warriors</a> (I am not a bandwagon, I have enjoyed watching them play for forever) but my favorite player is <a class="hvr-sweep-to-right" href="http://www.espn.com/nba/player/_/id/6442/kyrie-irving">Kyrie Irving.</a></p>
+
+               
+</html>
